@@ -1,16 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/navbar/NavBar';
-import CartWidget from './components/cartwidget/CartWidget';
-import ItemListContainer from './components/itemlistcontainer/ItemListContainer';
+import "./App.css";
+import NavBar from "./components/navbar/NavBar";
+import ItemListContainer from "./components/itemlistcontainer/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-    <NavBar />
-    <CartWidget />
-    <ItemListContainer greeting="Bienvenido a CyberLife, Vea nuestros productos mas recientes"/>
-    </>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<ItemListContainer />} />
+        <Route path="/type/:typeid" element={<ItemListContainer />} />
+        <Route path="/item/:itemid" element={<ItemDetailContainer />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
