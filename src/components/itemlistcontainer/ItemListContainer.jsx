@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import React from "react";
-import getItems, { getItemsByType } from "../../services/mockAsyncServices";
+import { getItems } from "../../services/firebase";
+import { getItemsByType } from "../../services/firebase";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 

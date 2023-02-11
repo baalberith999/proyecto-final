@@ -1,5 +1,5 @@
 import React from "react";
-import "./Item.css";
+import "./ItemDetail.css";
 import { Link } from "react-router-dom";
 
 function Item({ id, model, imgurl, details, price }) {
@@ -14,7 +14,7 @@ function Item({ id, model, imgurl, details, price }) {
           <p>{details}</p>
           <h2>${price}</h2>
           <Link to={urlDetail}>
-            <button>Ver Detalle</button>
+            <button className="button-item-detail">Ver Detalle</button>
           </Link>
         </div>
       </div>

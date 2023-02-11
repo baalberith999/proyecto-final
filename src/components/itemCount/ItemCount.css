@@ -1,0 +1,31 @@
+.btn {
+  height: 30px;
+  width: 40px;
+  background-color: rgba(87, 87, 207, 0.918);
+  border-color: rgba(65, 65, 173, 0.918);
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+}
+
+.btn-text {
+  height: 50px;
+  width: 100px;
+  background-color: rgba(52, 52, 208, 0.918);
+  border-color: rgba(52, 52, 208, 0.918);
+  border-radius: 20px;
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+}
+
+small {
+  font-size: 20px;
+}
+
+.itemcount_count {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  margin: 20px;
+}

@@ -36,6 +36,10 @@ body {
   }
 }
 
+.card-container {
+  margin-top: 500px;
+}
+
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -55,7 +59,7 @@ body {
   border-radius: 5%;
 }
 
-button {
+.button-item-detail {
   height: 50px;
   width: 150px;
   background-color: rgba(52, 52, 208, 0.918);

@@ -1,5 +1,5 @@
 import React from "react";
-import Item from "../item/Item";
+import Item from "../itemDetail/ItemDetail";
 
 function ItemList(props) {
   return (
